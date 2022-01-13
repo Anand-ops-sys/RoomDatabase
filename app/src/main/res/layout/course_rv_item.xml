@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:elevation="18dp"
+    app:cardCornerRadius="12dp">
+
+    <LinearLayout
+        android:id="@+id/idLLCourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:text="Name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="10dip"
+               android:fontFamily="sans-serif-black"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_weight="1" />
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:layout_weight="1"
+                android:text="Name"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:text="Capital"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="10dip"
+                android:fontFamily="sans-serif-black"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_weight="1" />
+            <TextView
+                android:id="@+id/capital"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:layout_weight="1"
+                android:text="Name"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:text="Flag"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="10dip"
+                android:fontFamily="sans-serif-black"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_weight="1" />
+            <ImageView
+                android:id="@+id/flag"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="-20dp"
+                android:src="@drawable/ic_launcher_background"
+                />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:text="Region"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="10dip"
+                android:fontFamily="sans-serif-black"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_weight="1" />
+            <TextView
+                android:id="@+id/region"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:layout_weight="1"
+                android:text="Region"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:text="Sub Region"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="10dip"
+                android:fontFamily="sans-serif-black"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_weight="1" />
+            <TextView
+                android:id="@+id/subregion"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:layout_weight="1"
+                android:text="Sub Region"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:text="Population"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="10dip"
+                android:fontFamily="sans-serif-black"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_weight="1" />
+            <TextView
+                android:id="@+id/population"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:layout_weight="1"
+                android:text="population"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:text="Border"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="10dip"
+                android:fontFamily="sans-serif-black"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_weight="1" />
+            <TextView
+                android:id="@+id/border"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:layout_weight="1"
+                android:text="border"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:text="Language"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="10dip"
+                android:fontFamily="sans-serif-black"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_weight="1" />
+            <TextView
+                android:id="@+id/language"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:layout_weight="1"
+                android:text="language"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
